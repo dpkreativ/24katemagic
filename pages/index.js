@@ -10,6 +10,7 @@ export default function Home() {
       </Head>
 
       {/* Home Layout */}
+      <main>U</main>
     </>
   );
 }
