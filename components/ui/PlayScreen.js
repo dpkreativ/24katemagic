@@ -1,12 +1,9 @@
 import useSound from 'use-sound';
 import { PlayIcon } from '../assets/Icons';
 
-export default function PlayScreen({ onClick }) {
-  // function handleClick() {
-  //   play;
-  //   onClick;
-  // }
+export default function PlayScreen() {
   const [play] = useSound(`/audio/audio.mp3`);
+
   return (
     <div className="flex flex-col space-y-48">
       <div>Put on your headphones</div>

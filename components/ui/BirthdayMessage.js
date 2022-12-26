@@ -3,7 +3,7 @@ import AnimatedSentence from './AnimatedSentence';
 
 export default function BirthdayMessage() {
   return (
-    <div>
+    <div className="flex flex-col space-y-40 p-10">
       <AnimatedSentence
         className={`flex justify-center text-purple-700 text-2xl`}
         split={' '}

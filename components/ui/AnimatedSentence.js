@@ -38,7 +38,7 @@ export default function AnimatedSentence({ className, split, text }) {
 
   return (
     <motion.div
-      className={className}
+      className={`${className} flex-wrap`}
       variants={container}
       initial="hidden"
       animate="visible"
