@@ -12,7 +12,6 @@ export default function BirthdayMessage() {
           text={`hey baby!`}
         />
         <AnimatedSentence
-          className={`text-xl`}
           text={`Let me tell you a little story...`}
           split={' '}
         />
