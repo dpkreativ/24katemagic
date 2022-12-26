@@ -11,14 +11,15 @@ export default function BirthdayMessage() {
           className={`text-2xl text-purple-700`}
           text={`hey baby!`}
         />
-        <AnimatedSentence
-          text={`Let me tell you a little story...`}
-          split={' '}
-        />
 
         <div className="animate-bounce">
           <ArrowDown />
         </div>
+
+        <AnimatedSentence
+          text={`Let me tell you a little story...`}
+          split={' '}
+        />
       </Screen>
     </div>
   );
