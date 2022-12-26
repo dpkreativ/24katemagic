@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 
-export default function AnimatedSentence({ className, split, text }) {
+export default function AnimatedSentence({ className, split = '', text }) {
   const words = text.split(split);
 
   // Variants
@@ -38,7 +38,7 @@ export default function AnimatedSentence({ className, split, text }) {
 
   return (
     <motion.div
-      className={`${className} flex-wrap`}
+      className={`${className} text-center`}
       variants={container}
       initial="hidden"
       animate="visible"

@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
 
       {/* Home Layout */}
-      <div className="h-screen flex items-center justify-center">
+      <div className="min-h-screen p-10 flex items-center justify-center">
         {viewContent ? (
           <BirthdayMessage />
         ) : (

@@ -18,3 +18,34 @@ export function PlayIcon() {
     </svg>
   );
 }
+
+export function ArrowDown() {
+  return (
+    <svg
+      width="59"
+      height="79"
+      viewBox="0 0 59 79"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M37.8403 5.74331C41.4817 14.5581 43.5385 25.4236 38.9699 34.324C36.0503 40.0119 29.0081 43.8479 22.6777 42.8243C16.6991 41.8577 11.0536 38.3653 10.2635 31.9929C9.85169 28.6714 10.9506 25.5916 14.3466 24.4715C19.5349 22.7602 25.8343 27.254 28.7778 31.1335C37.964 43.2409 40.3309 61.9471 33.8051 75.7496"
+        stroke="#4A3AFF"
+        strokeWidth="4"
+        strokeLinecap="round"
+      />
+      <path
+        d="M42.8185 68.7547C40.9004 70.6093 36.3917 74.7068 33.7018 76.2598"
+        stroke="#4A3AFF"
+        strokeWidth="4"
+        strokeLinecap="round"
+      />
+      <path
+        d="M33.7018 76.2599C32.968 73.6947 31.1121 67.8918 29.5591 65.2018"
+        stroke="#4A3AFF"
+        strokeWidth="4"
+        strokeLinecap="round"
+      />
+    </svg>
+  );
+}

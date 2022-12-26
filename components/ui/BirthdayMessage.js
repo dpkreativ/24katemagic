@@ -1,20 +1,27 @@
 import React from 'react';
+import { ArrowDown } from '../assets/Icons';
 import AnimatedSentence from './AnimatedSentence';
+import Screen from './Screen';
 
 export default function BirthdayMessage() {
   return (
-    <div className="flex flex-col space-y-40 p-10">
-      <AnimatedSentence
-        className={`flex justify-center text-purple-700 text-2xl`}
-        split={' '}
-        text={`hey baby!`}
-      />
+    <div className="flex flex-col">
+      <Screen>
+        <AnimatedSentence
+          className={`text-2xl text-purple-700`}
+          split={' '}
+          text={`hey baby!`}
+        />
+        <AnimatedSentence
+          className={`text-xl`}
+          split={''}
+          text={`Let me tell you a little story...`}
+        />
 
-      <AnimatedSentence
-        className={`flex justify-center text-xl`}
-        split={''}
-        text={`Let me tell you a little story...`}
-      />
+        <ArrowDown />
+      </Screen>
+
+      <Screen></Screen>
     </div>
   );
 }
