@@ -38,7 +38,7 @@ export default function AnimatedSentence({ className, split = '', text }) {
 
   return (
     <motion.div
-      className={`${className} text-center`}
+      className={`${className} text-center ${split === '' ? 'flex' : ''}`}
       variants={container}
       initial="hidden"
       animate="visible"
@@ -46,7 +46,7 @@ export default function AnimatedSentence({ className, split = '', text }) {
       {words.map((word, index) => (
         <motion.span
           key={index}
-          className={split === '' ? 'min-w-max w-4' : 'mx-1'}
+          className={split === '' ? 'w-4' : 'mx-1'}
           variants={child}
         >
           {word}

@@ -15,13 +15,10 @@ export default function PlayScreen() {
       </div>
 
       <div className="flex flex-col space-y-6 items-center justify-center">
-        <AnimatedSentence
-          text={`Tap to start`}
-          split={' '}
-          className={`text-3xl`}
-        />
+        <AnimatedSentence text={`Tap to start`} className={`text-3xl`} />
         <AnimatedSentence
           text={`Put on your headphones`}
+          split={' '}
           className={`text-xs`}
         />
       </div>
