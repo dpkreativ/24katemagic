@@ -49,3 +49,156 @@ export function ArrowDown() {
     </svg>
   );
 }
+
+export function CircularDoodle() {
+  return (
+    <svg
+      width="132"
+      height="60"
+      viewBox="0 0 132 60"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M108.289 4.9676C84.2913 0.232538 30.5848 -2.31256 7.74227 25.3876C-20.8109 60.0127 64.7278 60.9293 97.2902 55.5736C116.773 52.369 129.5 44.5285 129.5 33.1848C129.5 23.4188 107.4 8.74083 67.4039 11.5153"
+        stroke="#6AC259"
+        strokeWidth="4"
+        strokeLinecap="round"
+      />
+    </svg>
+  );
+}
+
+export function HeartDoodle() {
+  return (
+    <svg
+      width="105"
+      height="93"
+      viewBox="0 0 105 93"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M8.92054 4.41504C33.1086 -8.17296 44.744 35.7614 49.663 39.9575C54.582 44.1536 68.8395 -6.78865 96.513 10.2905C124.186 27.3696 52.0329 91.9984 45.2029 90.5562C36.6653 88.7533 -15.2675 17.003 8.92054 4.41504Z"
+        stroke="#4A3AFF"
+        strokeWidth="4"
+        strokeLinecap="round"
+      />
+    </svg>
+  );
+}
+
+export function PinkHeart() {
+  return (
+    <svg
+      width="29"
+      height="26"
+      viewBox="0 0 29 26"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M3.99384 2.60376C10.0409 -0.54324 12.9497 10.4404 14.1795 11.4894C15.4092 12.5384 18.9736 -0.197163 25.892 4.07261C32.8103 8.34239 14.7719 24.4996 13.0644 24.139C10.93 23.6883 -2.05317 5.75076 3.99384 2.60376Z"
+        stroke="#F83889"
+        strokeWidth="3"
+        strokeLinecap="round"
+      />
+    </svg>
+  );
+}
+
+export function UnderlineDoodle() {
+  return (
+    <svg
+      width="185"
+      height="22"
+      viewBox="0 0 185 22"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M2 11.072C25.0315 6.81026 93.3757 -0.434732 182.5 4.67938"
+        stroke="#4A3AFF"
+        strokeWidth="4"
+        strokeLinecap="round"
+      />
+      <path
+        d="M37.7119 20.0003C54.5026 16.9562 104.328 11.7812 169.302 15.4341"
+        stroke="#4A3AFF"
+        strokeWidth="4"
+        strokeLinecap="round"
+      />
+    </svg>
+  );
+}
+
+export function StarDoodle() {
+  return (
+    <svg
+      width="19"
+      height="24"
+      viewBox="0 0 19 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M8.78589 1.12158C8.35926 5.42004 6.20481 14.017 1 14.017"
+        stroke="#FDB50C"
+        strokeLinecap="round"
+      />
+      <path
+        d="M8.78585 23.3843C9.27247 19.8968 11.7299 12.922 17.6666 12.922"
+        stroke="#FDB50C"
+        strokeLinecap="round"
+      />
+      <path
+        d="M8.78585 1C9.27247 4.97405 11.7299 12.9221 17.6666 12.9221"
+        stroke="#FDB50C"
+        strokeLinecap="round"
+      />
+      <path
+        d="M8.78589 23.3843C8.35926 20.2618 6.20481 14.0169 1 14.0169"
+        stroke="#FDB50C"
+        strokeLinecap="round"
+      />
+    </svg>
+  );
+}
+
+export function ZigZagDoodle() {
+  return (
+    <svg
+      width="50"
+      height="31"
+      viewBox="0 0 50 31"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M1.6356 29.3171C1.6356 29.3171 2.15651 13.1416 3.49072 12.7159C4.82492 12.2903 13.7705 24.1413 14.9244 23.7731C16.0784 23.405 18.7078 7.86125 20.4748 7.29756C22.2417 6.73386 27.5363 16.2315 28.7852 15.9121C30.0341 15.5928 35.6198 2.4659 37.2424 1.94822C38.8651 1.43055 48.2058 10.7838 48.2058 10.7838"
+        stroke="#F83889"
+        strokeWidth="2"
+        strokeLinecap="round"
+      />
+    </svg>
+  );
+}
+
+export function DownZagDoodle() {
+  return (
+    <svg
+      width="104"
+      height="52"
+      viewBox="0 0 104 52"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M2 3.36534C15.7471 2.57597 95.0812 0.734106 101.475 3.36534C109.468 6.65438 23.5797 12.9693 19.2638 15.3374C15.811 17.2319 86.7207 21.5208 90.8768 22.0471C95.0329 22.5733 41.483 30.9143 42.1224 49.0172"
+        stroke="#4A3AFF"
+        strokeWidth="4"
+        strokeLinecap="round"
+      />
+    </svg>
+  );
+}

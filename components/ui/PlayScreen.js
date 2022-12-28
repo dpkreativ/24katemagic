@@ -1,6 +1,6 @@
 import useSound from 'use-sound';
 import { PlayIcon } from '../assets/Icons';
-import AnimatedSentence from './AnimatedSentence';
+import { StaggeredText } from './Animations';
 
 export default function PlayScreen() {
   const [play] = useSound(`/audio/audio.mp3`);
@@ -15,8 +15,8 @@ export default function PlayScreen() {
       </div>
 
       <div className="flex flex-col space-y-6 items-center justify-center">
-        <AnimatedSentence text={`Tap to start`} className={`text-3xl`} />
-        <AnimatedSentence
+        <StaggeredText text={`Tap to start`} className={`text-3xl`} />
+        <StaggeredText
           text={`Put on your headphones`}
           split={' '}
           className={`text-xs`}

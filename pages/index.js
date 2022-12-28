@@ -16,13 +16,14 @@ export default function Home() {
 
       {/* Home Layout */}
       <div className="min-h-screen p-10 flex items-center justify-center">
-        {viewContent ? (
+        {/* {viewContent ? (
           <BirthdayMessage />
         ) : (
           <div onClick={() => setViewContent(true)}>
             <PlayScreen />
           </div>
-        )}
+        )} */}
+        <BirthdayMessage />
       </div>
     </>
   );
