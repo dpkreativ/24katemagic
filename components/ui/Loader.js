@@ -1,7 +1,14 @@
+import Image from 'next/image';
+
 export default function Loader() {
   return (
-    <div className="h-screen flex flex-col space-y-48 items-center justify-center">
-      <img src="/images/loading.gif" alt="loading" />;
+    <div className="h-screen w-full relative flex flex-col space-y-48 items-center justify-center">
+      <Image
+        src={`/images/loading.gif`}
+        fill
+        style={{ objectFit: 'contain' }}
+        alt={`loading`}
+      />
     </div>
   );
 }

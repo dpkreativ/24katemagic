@@ -129,9 +129,7 @@ export default function BirthdayMessage() {
           </div>
         </div>
         <div className="flex flex-col space-y-3">
-          <StaggeredText
-            text={`Your work ethic is inspiring, and Nigeria thanks you immensely for your service`}
-          />
+          <StaggeredText text={`Your work ethic is inspiring!`} />
           <StaggeredText
             text={`Also notice how you effortlessly slay at everything?`}
           />
