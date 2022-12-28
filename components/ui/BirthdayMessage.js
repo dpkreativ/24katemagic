@@ -16,7 +16,10 @@ export default function BirthdayMessage() {
   return (
     <div className="flex flex-col">
       <Screen>
-        <div className="text-4xl">Scroll down</div>
+        <div>
+          <div className="text-4xl">Scroll down</div>
+          <div className="text-xs">slowly oh...😁 make e soft well well</div>
+        </div>
         <div className="animate-bounce">
           <ArrowDown />
         </div>
@@ -96,10 +99,12 @@ export default function BirthdayMessage() {
       </Screen>
 
       <Screen>
-        <KateImage src={`/images/three.jpg`} className={`w-full h-48`} />
-        <StaggeredText
-          text={`For a lot of us, you're that one friend that turns up... whether it's slaying for a wedding, or taking a taxi to Gwarinpa by 10pm cos your friend is sick`}
-        />
+        <div className="flex flex-col space-y-8">
+          <KateImage src={`/images/three.jpg`} className={`w-full h-48`} />
+          <StaggeredText
+            text={`For a lot of us, you're that one friend that turns up... whether it's slaying for a wedding, or taking a taxi to Gwarinpa by 10pm cos your friend is sick`}
+          />
+        </div>
       </Screen>
 
       <Screen>
