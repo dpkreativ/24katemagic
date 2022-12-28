@@ -48,15 +48,16 @@ export default function BirthdayMessage() {
       </Screen>
 
       <Screen>
+        <StaggeredText text={`Few hours later, she heard that piercing cry,`} />
         <StaggeredText
-          text={`Few hours later, she heard that piercing cry, and felt such peace and happiness like she's never felt before...`}
+          text={`and felt such peace and happiness like she's never felt before...`}
         />
-        <div className="animate-pulse">
-          <HeartDoodle />
-        </div>
       </Screen>
 
       <Screen>
+        <div className="animate-pulse">
+          <HeartDoodle />
+        </div>
         <StaggeredText
           text={`Over two decades later, that little bundle of joy...`}
         />
