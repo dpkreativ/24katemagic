@@ -177,13 +177,13 @@ export default function BirthdayMessage() {
 
       <Screen>
         <div className="flex flex-col space-y-8">
-          <KateImage src={`/images/ten.jpg`} className={`w-72 h-96`} />
+          <KateImage src={`/images/ten.jpg`} className={`w-72 h-96 mx-auto`} />
           <StaggeredText text={`Remember this day? 🤭`} />
         </div>
       </Screen>
 
       <Screen>
-        <KateImage src={`/images/eleven.jpg`} className={`w-72 h-96`} />
+        <KateImage src={`/images/eleven.jpg`} className={`w-72 h-96 mx-auto`} />
 
         <div className="flex flex-col space-y-5 mt-8">
           <StaggeredText text={`Katherine Adaobi Lucky`} />
