@@ -57,7 +57,7 @@ export function StaggeredText({ className = 'text-2xl', text }) {
               staggerChildren: 0.05,
             }}
           >
-            {word.split('').map((character, index) => {
+            {[...word].map((character, index) => {
               return (
                 <motion.span
                   className="inline-block -mr-[0.025em]"
