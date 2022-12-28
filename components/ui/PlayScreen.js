@@ -14,7 +14,6 @@ export default function PlayScreen() {
         }}
       >
         <PlayIcon />
-        <audio></audio>
         <div className="absolute top-0 left-0 rounded-full animate-[ping_3s_cubic-bezier(0,0,0.2,1)_infinite] opacity-10">
           <PlayIcon />
         </div>
