@@ -15,6 +15,9 @@ export default function PlayScreen() {
       <div className="flex flex-col space-y-6 items-center justify-center">
         <StaggeredText text={`Tap to start`} className={`text-3xl`} />
         <StaggeredText text={`Put on your headphones`} className={`text-xs`} />
+        <div className="text-[8px]">
+          might experience lag on slow networks... please be patient
+        </div>
       </div>
     </div>
   );
