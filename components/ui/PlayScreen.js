@@ -3,16 +3,9 @@ import { PlayIcon } from '../assets/Icons';
 import { StaggeredText } from './Animations';
 
 export default function PlayScreen() {
-  const audio = new Audio(`/audio/audio.mp3`);
-
   return (
     <div className="flex flex-col space-y-10 items-center">
-      <div
-        className="relative w-max animate-bounce"
-        onClick={() => {
-          audio.play();
-        }}
-      >
+      <div className="relative w-max">
         <PlayIcon />
         <div className="absolute top-0 left-0 rounded-full animate-[ping_3s_cubic-bezier(0,0,0.2,1)_infinite] opacity-10">
           <PlayIcon />

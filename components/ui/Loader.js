@@ -8,6 +8,7 @@ export default function Loader() {
         fill
         style={{ objectFit: 'contain' }}
         alt={`loading`}
+        priority
       />
     </div>
   );

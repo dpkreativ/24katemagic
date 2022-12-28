@@ -6,6 +6,13 @@ import PlayScreen from '../components/ui/PlayScreen';
 export default function Home() {
   const [viewContent, setViewContent] = useState(false);
 
+  const audio = new Audio(`/audio/audio.mp3`);
+
+  function handleClick() {
+    setViewContent(true);
+    audio.play();
+  }
+
   return (
     <>
       <Head>
@@ -19,7 +26,7 @@ export default function Home() {
         {viewContent ? (
           <BirthdayMessage />
         ) : (
-          <div onClick={() => setViewContent(true)}>
+          <div onClick={handleClick}>
             <PlayScreen />
           </div>
         )}
